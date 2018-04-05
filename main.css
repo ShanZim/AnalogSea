@@ -1,0 +1,86 @@
+main {
+background-color: blue;
+width: 100%;
+color: white;
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+padding: 15px;
+padding-bottom: 100px;
+}
+
+.container {
+	width: 320px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: white;
+	font-size: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	text-align: left;
+}
+
+.logo {
+	margin: 0 auto;
+	display: block;
+	height: 35px;
+	margin-bottom: 20px;
+}
+
+.input {
+	width: 303px;
+	height: 38px;
+	border: 2px lightgray solid;
+	padding: 15px;
+	color: gray;
+	margin-bottom: 15px;
+}
+
+h1 {
+	font-size: 35px;
+	text-align: center;
+
+}
+
+.label {
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 14px;  
+}
+
+.button {
+	display: block;
+	background-color: lightgreen;
+	width: 338px;
+	height: 70px;
+	border: 2px lightgray solid;
+	padding: 15px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+a {
+	color: white;
+}
+
+a:visited {
+	color: white;
+	text-decoration: underline;
+}
+
+button:hover {
+	background-color: darkgreen;
+}
+
+input:invalid {
+  border: 2px red solid;
+}
